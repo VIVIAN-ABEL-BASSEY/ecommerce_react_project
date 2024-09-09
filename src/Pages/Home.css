@@ -1,0 +1,29 @@
+.Home {
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+.Home-logo {
+  height: 40vmin;
+  pointer-events: none;
+  border-radius: 50%;
+  /* height: 150px;
+  width: 150px; */
+  /* margin-top: 10%; */
+  z-index: 1;
+  box-shadow: 3px 3px 4px 8px silver;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Home-logo {
+    animation: Home-logo-spin infinite 20s linear;
+  }
+}
+@keyframes Home-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
